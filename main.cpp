@@ -9,7 +9,7 @@
 int main()
 {
     float massInput, radiusInput;
-
+    printf("Enter mass and radius (e.g., 5.0 25.0): ");
     scanf("%f %f", &massInput, &radiusInput);
 
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Gravity-Simulator");
